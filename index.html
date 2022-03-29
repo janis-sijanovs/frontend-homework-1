@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-box">
+        <h2 class="header-box__text">Buttons</h1>
+    </div>
+    <div class="button-box">
+        <div class="button-box__row">
+            <!-- Class names are humongous, not sure if this is the best way to do BEM -->
+            <button class="btn button-box__large-button">
+                Button
+            </button>
+            <button class="btn button-box__large-button" disabled>
+                Button
+            </button>
+            <button class="btn button-box__large-button button-box__large-button--transparent">
+                Button
+            </button>
+            <button class="btn button-box__large-button button-box__large-button--transparent" disabled>
+                Button
+            </button>
+        </div>
+        <div class="button-box__row">
+            <button class="btn button-box__medium-button">
+                Primary Button
+            </button>
+            <button class="btn button-box__medium-button" disabled>
+                Primary Button
+            </button>
+            <button class="btn button-box__medium-button button-box__medium-button--secondary">
+                Secondary Button
+            </button>
+            <button class="btn button-box__medium-button button-box__medium-button--secondary" disabled>
+                Secondary Button
+            </button>
+        </div>
+        <div class="button-box__row">
+            <button class="btn button-box__medium-button button-box__medium-button--transparent">
+                Primary Button
+            </button>
+            <button class="btn button-box__medium-button button-box__medium-button--transparent" disabled>
+                Primary Button
+            </button>
+            <button class="btn button-box__medium-button button-box__medium-button--transparent-secondary">
+                Secondary Button
+            </button>
+            <button class="btn button-box__medium-button button-box__medium-button--transparent-secondary" disabled>
+                Secondary Button
+            </button>
+        </div>
+        <div class="button-box__row">
+            <button class="btn button-box__conversion-button">
+                Button 1
+            </button>
+            <button class="btn button-box__conversion-button" disabled>
+                Button 1
+            </button>
+            <button class="btn button-box__subscription-button">
+                Subscription
+            </button>
+            <button class="btn button-box__subscription-button" disabled>
+                Subscription
+            </button>
+        </div>
+        <div class="button-box__row">
+            <button class="btn button-box__normal-button">
+                normal
+            </button>
+            <button class="btn button-box__normal-button" disabled>
+                normal
+            </button>
+            <button class="btn button-box__add-button">
+                <object data="svg/plus.svg"></object>
+            </button>
+            <button class="btn button-box__add-button" disabled>
+                <object data="svg/plus.svg"></object>
+            </button>
+        </div>
+        <div class="button-box__row">
+            <button class="btn button-box__tertiary-button">
+                Button
+            </button>
+            <button class="btn button-box__tertiary-button" disabled>
+                Button
+            </button>
+            <button class="btn button-box__large-primary-button">
+                Primary Button
+            </button>
+            <button class="btn button-box__large-primary-button" disabled>
+                Primary Button
+            </button>
+        </div>
+    </div>
+    <div class="second-button-box">
+        <div class="button-box__row">
+            <button class="btn second-button-box__larger-button">
+                Button
+            </button>
+            <button class="btn second-button-box__larger-button" disabled>
+                Button
+            </button>
+        </div>
+        <div class="button-box__row">
+            <button class="btn second-button-box__smaller-button">
+                Button
+            </button>
+            <button class="btn second-button-box__smaller-button" disabled>
+                Button
+            </button>
+        </div>
+    </div>
+    <div class="header-box">
+        <h2 class="header-box__text">Toasts</h1>
+    </div>
+    <div class="toast-box">
+        <div class="flex-column">
+            <div class="toast">
+                <span>This is a toast for info</span>
+                <div class="toast__svg-box">
+                    <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.99999 4.58599L10.243 0.342987C10.6335 -0.0474781 11.2665 -0.0474791 11.657 0.342986C12.0475 0.733452 12.0475 1.36652 11.657 1.75699L7.41399 5.99999L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.41399L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 5.99999L0.342987 1.75699C-0.0474782 1.36652 -0.0474791 0.733452 0.342986 0.342986C0.733452 -0.0474791 1.36652 -0.0474789 1.75699 0.342987L5.99999 4.58599Z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="toast toast--green">
+                <span>This is a toast for info</span>
+                <div class="toast__svg-box">
+                    <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.99999 4.58599L10.243 0.342987C10.6335 -0.0474781 11.2665 -0.0474791 11.657 0.342986C12.0475 0.733452 12.0475 1.36652 11.657 1.75699L7.41399 5.99999L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.41399L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 5.99999L0.342987 1.75699C-0.0474782 1.36652 -0.0474791 0.733452 0.342986 0.342986C0.733452 -0.0474791 1.36652 -0.0474789 1.75699 0.342987L5.99999 4.58599Z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="toast toast--red">
+                <span>This is a toast for info</span>
+                <div class="toast__svg-box">
+                    <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.99999 4.58599L10.243 0.342987C10.6335 -0.0474781 11.2665 -0.0474791 11.657 0.342986C12.0475 0.733452 12.0475 1.36652 11.657 1.75699L7.41399 5.99999L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.41399L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 5.99999L0.342987 1.75699C-0.0474782 1.36652 -0.0474791 0.733452 0.342986 0.342986C0.733452 -0.0474791 1.36652 -0.0474789 1.75699 0.342987L5.99999 4.58599Z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="toast toast--orange">
+                <span>This is a toast for info</span>
+                <div class="toast__svg-box">
+                    <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.99999 4.58599L10.243 0.342987C10.6335 -0.0474781 11.2665 -0.0474791 11.657 0.342986C12.0475 0.733452 12.0475 1.36652 11.657 1.75699L7.41399 5.99999L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.41399L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 5.99999L0.342987 1.75699C-0.0474782 1.36652 -0.0474791 0.733452 0.342986 0.342986C0.733452 -0.0474791 1.36652 -0.0474789 1.75699 0.342987L5.99999 4.58599Z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="toast toast--gray">
+                <span>This is a toast for info</span>
+                <div class="toast__svg-box">
+                    <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.99999 4.58599L10.243 0.342987C10.6335 -0.0474781 11.2665 -0.0474791 11.657 0.342986C12.0475 0.733452 12.0475 1.36652 11.657 1.75699L7.41399 5.99999L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.41399L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 5.99999L0.342987 1.75699C-0.0474782 1.36652 -0.0474791 0.733452 0.342986 0.342986C0.733452 -0.0474791 1.36652 -0.0474789 1.75699 0.342987L5.99999 4.58599Z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="toast toast--white toast__text--blue">
+                <span>This is a toast for info</span>
+                <div class="toast__svg-box">
+                    <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.99999 4.58599L10.243 0.342987C10.6335 -0.0474781 11.2665 -0.0474791 11.657 0.342986C12.0475 0.733452 12.0475 1.36652 11.657 1.75699L7.41399 5.99999L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.41399L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 5.99999L0.342987 1.75699C-0.0474782 1.36652 -0.0474791 0.733452 0.342986 0.342986C0.733452 -0.0474791 1.36652 -0.0474789 1.75699 0.342987L5.99999 4.58599Z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="toast toast--white toast__text--green">
+                <span>This is a toast for info</span>
+                <div class="toast__svg-box">
+                    <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.99999 4.58599L10.243 0.342987C10.6335 -0.0474781 11.2665 -0.0474791 11.657 0.342986C12.0475 0.733452 12.0475 1.36652 11.657 1.75699L7.41399 5.99999L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.41399L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 5.99999L0.342987 1.75699C-0.0474782 1.36652 -0.0474791 0.733452 0.342986 0.342986C0.733452 -0.0474791 1.36652 -0.0474789 1.75699 0.342987L5.99999 4.58599Z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="toast toast--white toast__text--red">
+                <span>This is a toast for info</span>
+                <div class="toast__svg-box">
+                    <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.99999 4.58599L10.243 0.342987C10.6335 -0.0474781 11.2665 -0.0474791 11.657 0.342986C12.0475 0.733452 12.0475 1.36652 11.657 1.75699L7.41399 5.99999L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.41399L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 5.99999L0.342987 1.75699C-0.0474782 1.36652 -0.0474791 0.733452 0.342986 0.342986C0.733452 -0.0474791 1.36652 -0.0474789 1.75699 0.342987L5.99999 4.58599Z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="toast toast--white toast__text--orange">
+                <span>This is a toast for info</span>
+                <div class="toast__svg-box">
+                    <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.99999 4.58599L10.243 0.342987C10.6335 -0.0474781 11.2665 -0.0474791 11.657 0.342986C12.0475 0.733452 12.0475 1.36652 11.657 1.75699L7.41399 5.99999L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.41399L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 5.99999L0.342987 1.75699C-0.0474782 1.36652 -0.0474791 0.733452 0.342986 0.342986C0.733452 -0.0474791 1.36652 -0.0474789 1.75699 0.342987L5.99999 4.58599Z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="flex-column">
+            <div class="flexible-toast">
+                <p>Single line</p>
+                <button class="flexible-toast__action" href="">Action</button>
+                <div class="toast__svg-box">
+                    <svg width="10" height="10" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.99999 4.58599L10.243 0.342987C10.6335 -0.0474781 11.2665 -0.0474791 11.657 0.342986C12.0475 0.733452 12.0475 1.36652 11.657 1.75699L7.41399 5.99999L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.41399L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 5.99999L0.342987 1.75699C-0.0474782 1.36652 -0.0474791 0.733452 0.342986 0.342986C0.733452 -0.0474791 1.36652 -0.0474789 1.75699 0.342987L5.99999 4.58599Z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="flexible-toast">
+                <p>Multiple lines of text. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <button class="flexible-toast__action">Action</button>
+                <div class="toast__svg-box">
+                    <svg width="10" height="10" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.99999 4.58599L10.243 0.342987C10.6335 -0.0474781 11.2665 -0.0474791 11.657 0.342986C12.0475 0.733452 12.0475 1.36652 11.657 1.75699L7.41399 5.99999L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.41399L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 5.99999L0.342987 1.75699C-0.0474782 1.36652 -0.0474791 0.733452 0.342986 0.342986C0.733452 -0.0474791 1.36652 -0.0474789 1.75699 0.342987L5.99999 4.58599Z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
