@@ -5,10 +5,10 @@ They are quite long, but that's the way I felt it would be the most descriptive,
 
 I think I did everything correctly. The few things I'm not sure about are:
 
-   - There was a button, which had 400 font weight, but 500 in hover and active. 
-   Simmilar buttons were 500 font weight too, so I assumed it's better that all are 400.
+   - There was a button, which had 400 font-weight, but 500 in hover and active. 
+   Similar buttons were 500 font-weight too, so I assumed it's better than all are 400.
    
-   - The "Add" button had double gradient on the border, and I couldn't figure out a way to make it work.
+   - The "Add" button had a double gradient on the border, and I couldn't figure out a way to make it work.
 
-   - In many places I used pixcels, which are not great for responsivity, but allow me to better fit the layout to the design. 
+   - In many places, I used pixels, which are not great for responsivity but allow me to better fit the layout to the design. 
    I do think that it's fine in this assignment and the way I used them.
